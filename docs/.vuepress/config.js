@@ -18,62 +18,19 @@ module.exports = {
             {text: 'Charles', link: '/charles/'},
             {text: 'Wechat', link: '/wechat/'},
             {text: '杂记', link: '/thing/'},
-            {
-                text: '标签',
-                link: '/tag/',
-            },
+            {text: '标签', link: '/tag/',},
         ],
         directories: [
-            {
-                id: 'java', // Unique id for current classifier
-                dirname: 'java', // Matched directory name
-                itemPermalink: '/java/:year/:month/:day/:slug', // Permalink for matched pages.
-            },
-            {
-                id: 'linux', // Unique id for current classifier
-                dirname: 'linux', // Matched directory name
-                itemPermalink: '/linux/:year/:month/:day/:slug', // Permalink for matched pages.
-            },
-            {
-                id: 'mysql', // Unique id for current classifier
-                dirname: 'mysql', // Matched directory name
-                itemPermalink: '/mysql/:year/:month/:day/:slug', // Permalink for matched pages.
-            },
-            {
-                id: 'docker', // Unique id for current classifier
-                dirname: 'docker', // Matched directory name
-                itemPermalink: '/docker/:year/:month/:day/:slug', // Permalink for matched pages.
-            },
-            {
-                id: 'php', // Unique id for current classifier
-                dirname: 'php', // Matched directory name
-                itemPermalink: '/php/:year/:month/:day/:slug', // Permalink for matched pages.
-            },
-            {
-                id: 'idea', // Unique id for current classifier
-                dirname: 'idea', // Matched directory name
-                itemPermalink: '/idea/:year/:month/:day/:slug', // Permalink for matched pages.
-            },
-            {
-                id: 'vultr', // Unique id for current classifier
-                dirname: 'vultr', // Matched directory name
-                itemPermalink: '/vultr/:year/:month/:day/:slug', // Permalink for matched pages.
-            },
-            {
-                id: 'charles', // Unique id for current classifier
-                dirname: 'charles', // Matched directory name
-                itemPermalink: '/charles/:year/:month/:day/:slug', // Permalink for matched pages.
-            },
-            {
-                id: 'wechat', // Unique id for current classifier
-                dirname: 'wechat', // Matched directory name
-                itemPermalink: '/wechat/:year/:month/:day/:slug', // Permalink for matched pages.
-            },
-            {
-                id: 'thing', // Unique id for current classifier
-                dirname: 'thing', // Matched directory name
-                itemPermalink: '/thing/:year/:month/:day/:slug', // Permalink for matched pages.
-            },
+            {id: 'java', dirname: 'java', itemPermalink: '/java/:year/:month/:day/:slug'},
+            {id: 'linux', dirname: 'linux', itemPermalink: '/linux/:year/:month/:day/:slug'},
+            {id: 'mysql', dirname: 'mysql', itemPermalink: '/mysql/:year/:month/:day/:slug'},
+            {id: 'docker', dirname: 'docker', itemPermalink: '/docker/:year/:month/:day/:slug'},
+            {id: 'php', dirname: 'php', itemPermalink: '/php/:year/:month/:day/:slug'},
+            {id: 'idea', dirname: 'idea', itemPermalink: '/idea/:year/:month/:day/:slug'},
+            {id: 'vultr', dirname: 'vultr', itemPermalink: '/vultr/:year/:month/:day/:slug'},
+            {id: 'charles', dirname: 'charles', itemPermalink: '/charles/:year/:month/:day/:slug'},
+            {id: 'wechat', dirname: 'wechat', itemPermalink: '/wechat/:year/:month/:day/:slug'},
+            {id: 'thing', dirname: 'thing', itemPermalink: '/thing/:year/:month/:day/:slug'},
         ],
         footer: {
             contact: [
