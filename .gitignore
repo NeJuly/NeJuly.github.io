@@ -16,3 +16,7 @@ package-lock.json
 
 # Temporary files
 script/temp
+
+#idea
+idea
+.idea
