@@ -14,7 +14,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m '新增导航'
 
 # 如果发布到 https://<USERNAME>.github.io
 git push -f https://github.com/NeJuly/NeJuly.github.io.git master

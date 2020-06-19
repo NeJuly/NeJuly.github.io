@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "name": "NeJuly.github.io",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.2.0",
+    "vuepress": "^1.5.2",
+    "vuepress-theme-onen": "^1.1.3-beta"
+  }
+}
