@@ -3,7 +3,6 @@ title: 外部NGINX配置PHP容器权限
 date: 2020-04-25
 author: NeJuly
 tags: 
-  - nginx
   - docker
 location: 重庆  
 ---
