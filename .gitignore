@@ -11,6 +11,7 @@ node_modules/
 # vuepress build output
 .vuepress/dist
 .vuepress/dist*
+docs/.vuepress/dist*
 
 # Package lock
 package-lock.json
