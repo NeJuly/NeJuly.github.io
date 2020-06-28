@@ -1,7 +1,8 @@
 ---
 title: centOs下nginx配置docker容器php
 date: 2020-04-23
-author: NeJuly
+categories:
+ - docker
 tags: 
   - docker
   - nginx

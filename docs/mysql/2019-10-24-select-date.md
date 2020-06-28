@@ -1,7 +1,8 @@
 ---
 title: 查询当天、本周、本月、本季度、本年的数据
 date: 2019-10-24
-author: NeJuly
+categories:
+  - mysql
 tags: 
   - Mysql
 location: 重庆  

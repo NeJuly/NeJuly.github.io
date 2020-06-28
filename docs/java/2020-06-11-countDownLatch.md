@@ -1,7 +1,8 @@
 ---
 title: CountDownLatch同步工具类
 date: 2020-06-11
-author: NeJuly
+categories:
+ - java
 tags: 
   - java
 location: 重庆  
@@ -20,7 +21,7 @@ CountDownLatch是在java1.5被引入的，跟它一起被引入的并发工具�
 
 注：这是一个一次性操作 - 计数无法重置。 如果你需要一个重置的版本计数，考虑使用CyclicBarrier。
 
-### CountDownLatch 内部结构
+## CountDownLatch 内部结构
 
 1. Sync 是一个静态内部类 继承 AbstractQueuedSynchronizer
 ```php
@@ -111,8 +112,8 @@ private static final class Sync extends AbstractQueuedSynchronizer {
     }
 ```
 
-### CountDownLatch 使用示例
-#### 示例1
+## CountDownLatch 使用示例
+### 示例1
 ```php
 package com.kids.web.countdownlatch;
 import java.util.concurrent.CountDownLatch;
@@ -270,7 +271,7 @@ do work...19<br/>
 
 [原文链接](https://blog.csdn.net/qq_26368063/article/details/82386581 "原文链接") 
 
-### 项目实战
+## 项目实战
 ```php
 import java.util.concurrent.CountDownLatch;
 /**

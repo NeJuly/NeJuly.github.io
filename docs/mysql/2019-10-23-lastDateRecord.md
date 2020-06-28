@@ -1,7 +1,8 @@
 ---
 title: 查询时间最大的一条记录
 date: 2019-10-23
-author: NeJuly
+categories:
+  - mysql
 tags:
   - Mysql
 location: 重庆

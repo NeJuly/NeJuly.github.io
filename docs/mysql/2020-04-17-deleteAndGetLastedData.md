@@ -1,12 +1,13 @@
 ---
 title: 删除重复记录，保留最新一条
 date: 2020-04-17
-author: NeJuly
+categories:
+  - mysql
 tags: 
   - Mysql
 location: 重庆  
 ---
-### 删除重复记录，保留最新一条
+## 删除重复记录，保留最新一条
 ```mysql
 DELETE 
 FROM

@@ -1,7 +1,8 @@
 ---
 title: docker 容器访问外部Redis
 date: 2020-04-11
-author: NeJuly
+categories:
+ - docker
 tags: 
   - docker
   - redis

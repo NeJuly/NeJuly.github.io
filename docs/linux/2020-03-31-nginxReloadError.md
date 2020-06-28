@@ -1,7 +1,8 @@
 ---
 title: 解决Nginx [error] open() ＂/usr/local/Nginx/logs/Nginx.pid
 date: 2020-03-31
-author: NeJuly
+categories:
+ - linux
 tags: 
   - linux
 location: 重庆  
