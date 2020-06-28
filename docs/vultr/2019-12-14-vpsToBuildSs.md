@@ -1,14 +1,15 @@
 ---
 title: 在VPS服务器中搭建ss（单用户与多用户）
 date: 2019-12-14
-author: NeJuly
+categories:
+  - vultr
 tags: 
   - vultr
 location: 重庆  
 ---
 
 我使用的环境是CentOS6。这里面所用到的中，CentOS7防火墙的命令和CentOS6不一样，其他的都一样。
-### 安装shadowsocks
+## 安装shadowsocks
 
 ```bash
 yum update
@@ -24,7 +25,7 @@ chmod +x shadowsocks.sh
 然后根据提示，配置密码、端口、加密方法，参考图：<br>
 ![Image text](/assets/img/vultr/1.png)
 
-### 配置配置文件
+## 配置配置文件
 查看配置文件：
 ```bash
 cat /etc/shadowsocks.json
@@ -63,7 +64,7 @@ cat /etc/shadowsocks.json
 }
 ```
 
-### 修改完配置文件之后
+## 修改完配置文件之后
 ```bash
 /etc/init.d/shadowsocks restart
 ```
