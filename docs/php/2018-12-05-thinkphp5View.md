@@ -1,7 +1,8 @@
 ---
 title: tp5视图小总结
 date: 2018-12-05
-author: NeJuly
+categories:
+  - php
 tags: 
   - php
   - thinkphp5
